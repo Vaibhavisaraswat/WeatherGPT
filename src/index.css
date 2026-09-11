@@ -1,0 +1,28 @@
+:root {
+  --indigo-night: #1A1F3D;
+  --monsoon-blue: #3B6E8F;
+  --turmeric-gold: #E8A33D;
+  --cloud-white: #F4F6F8;
+  --soft-mist: #8A93A8;
+  --alert-red: #D9603B;
+
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--indigo-night);
+  color: var(--cloud-white);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
